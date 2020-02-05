@@ -1,0 +1,36 @@
+{
+	"name": "find-my-ip-cli",
+	"version": "1.0.0",
+	"description": "Find my IP CLI",
+	"main": "cli.js",
+	"bin": {
+		"find-my-ip": "cli.js"
+	},
+	"author": "Aleksandar Stojanoski",
+	"license": "MIT",
+	"dependencies": {
+		"got": "^10.4.0"
+	},
+	"devDependencies": {
+		"prettier": "^1.19.1"
+	},
+	"keywords": [
+		"find-my-ip",
+		"cli-app",
+		"cli",
+		"ip",
+		"address",
+		"public"
+	],
+	"homepage": "https://github.com/acestojanoski/find-my-ip-cli#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/acestojanoski/find-my-ip-cli.git"
+	},
+	"bugs": {
+		"url": "https://github.com/acestojanoski/find-my-ip-cli/issues"
+	},
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org"
+	}
+}
