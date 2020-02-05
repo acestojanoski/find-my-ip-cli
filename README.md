@@ -1,4 +1,4 @@
-# find-my-ip
+# find-my-ip-cli
 
 CLI to find your IP address
 
