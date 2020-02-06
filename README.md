@@ -15,19 +15,14 @@ API specs: https://find-my-ip.herokuapp.com/api-specs
 ## Usage
 
 ```
-    Usage
-	  $ find-my-ip
+Usage
+  $ find-my-ip
 
-	Options:
-	  --endpoint, -e  Use your own endpoint to find your IP
+Options:
+  --endpoint, -e  Use your own endpoint to find your IP
 
-	Examples
-	  $ find-my-ip
-	  $ find-my-ip -e <your_endpoint>
-	  $ find-my-ip --endpoint <your_endpoint>
+Examples
+  $ find-my-ip
+  $ find-my-ip -e <your_endpoint>
+  $ find-my-ip --endpoint <your_endpoint>
 ```
-
-## dependencies
-
--   got
--   meow
