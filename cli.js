@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 const got = require('got');
 
 const API_URL = 'https://find-my-ip.herokuapp.com';
