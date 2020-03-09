@@ -1,6 +1,6 @@
 {
 	"name": "find-my-ip-cli",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"description": "CLI to find your public IP address",
 	"main": "cli.js",
 	"bin": {
@@ -10,16 +10,14 @@
 		"registry": "https://registry.npmjs.org"
 	},
 	"scripts": {
-		"prepublish": "xo"
+		"prettier:check": "prettier **/**.js --check",
+		"prepublishOnly": "npm run prettier:check"
 	},
 	"author": "Aleksandar Stojanoski",
 	"license": "MIT",
 	"dependencies": {
 		"acejax": "^1.0.1",
 		"args-flagify": "^2.1.0"
-	},
-	"devDependencies": {
-		"xo": "^0.27.2"
 	},
 	"keywords": [
 		"find-my-ip",
@@ -38,10 +36,7 @@
 	"bugs": {
 		"url": "https://github.com/acestojanoski/find-my-ip-cli/issues"
 	},
-	"xo": {
-		"prettier": true,
-		"rules": {
-			"no-unused-vars": "off"
-		}
+	"devDependencies": {
+		"prettier": "^1.19.1"
 	}
 }
