@@ -106,7 +106,5 @@ typings/
 .vscode-test
 
 # Custom
-src/
 .vscode/
 .prettierrc
-.babelrc
