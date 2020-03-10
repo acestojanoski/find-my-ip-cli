@@ -28,8 +28,7 @@ const cli = argsFlagify(
 
 (async endpoint => {
 	try {
-		const {body} = await acejax({
-			url: endpoint || API_URL,
+		const {body} = await acejax(endpoint || API_URL, {
 			json: !endpoint,
 		});
 

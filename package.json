@@ -1,6 +1,6 @@
 {
 	"name": "find-my-ip-cli",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "CLI to find your public IP address",
 	"main": "cli.js",
 	"bin": {
@@ -16,7 +16,7 @@
 	"author": "Aleksandar Stojanoski",
 	"license": "MIT",
 	"dependencies": {
-		"acejax": "^1.0.1",
+		"acejax": "^2.0.0",
 		"args-flagify": "^2.1.0"
 	},
 	"keywords": [
