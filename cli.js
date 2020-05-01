@@ -3,7 +3,7 @@
 const argsFlagify = require('args-flagify');
 const {default: acejax} = require('acejax');
 
-const API_URL = 'https://find-my-ip.herokuapp.com';
+const API_URL = 'https://find-my-ip.now.sh';
 
 const cli = argsFlagify(
 	`
@@ -28,12 +28,9 @@ const cli = argsFlagify(
 
 (async endpoint => {
 	try {
-		const {body} = await acejax(endpoint || API_URL, {
-			json: !endpoint,
-		});
-
-		console.log(body.ip || body);
+		const {body} = await acejax(endpoint || API_URL);
+		console.info(body);
 	} catch (error) {
-		console.log('Unable to find your IP.');
+		console.error('Unable to find your IP.');
 	}
 })(cli.flags.endpoint);

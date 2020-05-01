@@ -5,11 +5,9 @@
 
 > CLI to find your public IP address
 
-It is using the find-my-ip-api.
+It is using the `find-my-ip` microservice.
 
-Github link: https://github.com/acestojanoski/find-my-ip-api
-
-API specs: https://find-my-ip.herokuapp.com/api-specs
+Github link: https://github.com/acestojanoski/find-my-ip
 
 ## Install
 
