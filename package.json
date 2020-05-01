@@ -1,6 +1,6 @@
 {
 	"name": "find-my-ip-cli",
-	"version": "2.0.3",
+	"version": "2.0.4",
 	"description": "CLI to find your public IP address",
 	"main": "cli.js",
 	"bin": {
