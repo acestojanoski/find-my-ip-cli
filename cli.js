@@ -26,7 +26,7 @@ const cli = argsFlagify(
 	}
 );
 
-(async endpoint => {
+(async (endpoint) => {
 	try {
 		const {body} = await acejax(endpoint || API_URL);
 		console.info(body);
